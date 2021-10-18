@@ -1,0 +1,155 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    display: none
+}
+.menu-mobile img {
+    width: 70px;
+    margin: 5px;
+}
+.menu-mobile {
+    float: right;
+}
+header nav {
+    display: none;
+}
+#logotipo {
+    margin: 5px;
+    width: 70px;
+}
+header {
+    background: #20B549;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 320px;
+    
+}
+#banner {
+    background:url("imagens/58677.jpg");
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: 320px  142px ;
+    margin: 5px;
+    border-radius: 20px 20px 20px 20px;
+}
+#fundo-destaque {
+    background: #1DC224;
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+#foto-destaque {
+    width: 230px;
+    border-radius: 20px 20px 20px 20px;
+}
+#novidades img {
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+@media screen and (min-width: 750px){
+    h1 {
+        display: block;
+        font-size: 35px;
+        margin: 5px;
+    }
+    header nav{
+        display: block;
+        float: right;
+    }
+    .menu-mobile{
+         display: none;
+    }
+    #banner {
+        background:url("imagens/58677.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: 1320px  550px ;
+        margin: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+      header {
+        background: #20B549;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 1350px;
+        height: 84px;
+        border-radius: 20px 20px 20px 20px;
+}
+#fundo-destaque {
+    background: #1DC224;
+    width: 1320px;
+    height: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+#foto-destaque {
+    width: 600px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 20px 20px 20px 20px;
+}
+#novidades img {
+    width: 400px;
+    border-radius: 20px 20px 20px 20px;
+}
+}
+
+#novidades, #destaques {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 10px;
+  }
+#destaques img {
+    margin-right: auto;
+}
+#novidades img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto {
+    color: white;
+}
+
+
+.menu {
+    color: white;
+    padding: 15px;
+}
+header nav {
+    
+    float: right;
+    font-weight: bolder;
+}
+/*
+#banner img{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+*/
+
+
+.carousel-item {
+    margin: 10px;
+}
+body {
+    background-color: #313131;
+
+}
+.banner {
+    color: white;
+}
+
+
+header h1 {
+    color: white;
+    float: right;
+}
+body h2{
+    color: white;
+}
+footer {
+    background-color: #20B549;
+}
