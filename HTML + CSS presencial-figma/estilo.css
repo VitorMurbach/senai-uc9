@@ -49,7 +49,19 @@ header {
     width: 250px;
     border-radius: 20px 20px 20px 20px;
 }
-
+#menu-slide {
+    z-index: 10;
+    position: absolute;
+    top: 65px;
+    left: -200px;
+    width: 175px;
+    height: 200px;
+    background-color: #20B549;
+    border: 2px snow;
+    transition: 0.5s ease-in;
+    color: white;
+    text-decoration: none;
+  }
 
 /*Responsividade de tablet*/
 @media screen and (min-width: 768px){
@@ -264,3 +276,27 @@ h5 a {
 .tel {
    margin-left: 15px;
 }
+#menu-slide.slide-menu-show {
+    left: 0px;
+  }
+  #menu-slide ul {
+      padding-left: 45px;
+      list-style: none;
+  }
+  #menu-slide  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    align-content: center;
+    background-color: white;
+    border: 1px black;
+    border-radius: 5px 5px 5px 5px;
+  }
+  #menu-slide li{
+      margin-top: 20px;
+      align-content: center;
+  }
+  #logintext {
+      margin-left: auto;
+      margin-right: auto;
+  }
