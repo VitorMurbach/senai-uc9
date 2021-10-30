@@ -23,7 +23,7 @@ header nav {
 header {
     background: #20B549;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 320px;
+    width: 100%;
 }
 #banner {
     background:url("imagens/58677.jpg");
@@ -36,7 +36,7 @@ header {
 }
 #destaques {
     background: #1DC224;
-    width: 250px;
+    width: 100%;
     border-radius: 20px 20px 20px 20px;
     margin-left: auto;
     margin-right: auto;
@@ -82,7 +82,7 @@ header {
       header {
         background: #20B549;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        width: 768px;
+        width: 100%;
         height: 84px;
         border-radius: 20px 20px 20px 20px;
 }
@@ -129,13 +129,13 @@ header {
       header {
         background: #20B549;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        width: 1024px;
+        width: 100%;
         height: 84px;
         border-radius: 20px 20px 20px 20px;
 }
 #destaques {
     background: #1DC224;
-    width: 1024px;
+    width: 100%;
     height: 250px;
     border-radius: 20px 20px 20px 20px;
 }
@@ -252,9 +252,11 @@ body h2{
     color: white;
 }
 footer {
+    margin: 5px;
     background-color: #20B549;
     border-radius: 5px;
     row-gap: 3px;
+    padding: 15px;
 }
 #texto-destaque{
     width: 40vw;
@@ -300,3 +302,33 @@ h5 a {
       margin-left: auto;
       margin-right: auto;
   }
+  h1.titulo-catalogo {
+      color: white;
+  }
+.img-catalogo {
+    width: 30vw;
+    height: 30vw;
+  }
+#descricao {
+    background-color: #20B549;
+    width: 100%;
+}
+#linha-catalogo {
+    margin: 5px;
+}
+#linha-flex {
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#footer-flex {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 65%;
+}
+#redes-sociais {
+    width: 5vw;
+}
