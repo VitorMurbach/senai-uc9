@@ -3,7 +3,7 @@
 }
 
 /*Responsividade mobile*/
-h1 {
+.titulo-loja {
     display: none
 }
 .menu-mobile img {
@@ -11,7 +11,7 @@ h1 {
     margin: 5px;
 }
 .menu-mobile {
-    float: right;
+    float: left;
 }
 header nav {
     display: none;
@@ -52,20 +52,31 @@ header {
 #menu-slide {
     z-index: 10;
     position: absolute;
-    top: 65px;
+    top: 75px;
     left: -200px;
     width: 175px;
     height: 200px;
-    background-color: #20B549;
-    border: 2px snow;
+    background-color: #149b3a;
+    border: 5px snow;
     transition: 0.5s ease-in;
     color: white;
     text-decoration: none;
   }
 
+#linha-flex {
+    margin: 25px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#toggle-fading {
+    margin-left: 15vw;
+}
+
 /*Responsividade de tablet*/
 @media screen and (min-width: 768px){
-    h1 {
+    .titulo-loja {
         display: block;
         font-size: 35px;
         margin: 5px;
@@ -102,13 +113,24 @@ header {
     width: 400px;
     border-radius: 20px 20px 20px 20px;
 }
+#linha-flex {
+    margin: 25px;
+    padding-left: 90px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#toggle-fading {
+    margin-left: 37vw;
+}
 }
 /*Responsividade Laptop*/
 @media screen and (min-width: 1024px){
-    h1 {
+    .titulo-loja {
         display: block;
         font-size: 35px;
-        margin: 5px;
+        margin: 3px;
     }
     .menu-mobile {
         display: none;
@@ -149,10 +171,21 @@ header {
     width: 400px;
     border-radius: 20px 20px 20px 20px;
 }
+#linha-flex {
+    margin: 25px;
+    padding-left: 150px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}   
+#toggle-fading {
+    margin-left: 40vw;
+}
 }
 /*Responsividade Pc*/
 @media screen and (min-width: 1440px){
-    h1 {
+    .titulo-loja {
         display: block;
         font-size: 35px;
         margin: 5px;
@@ -189,6 +222,20 @@ header {
     width: 500px;
     border-radius: 20px 20px 20px 20px;
 }
+#linha-flex {
+    margin: 25px;
+    padding-left: 240px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}  
+.nav-link {
+    font-size: 1.5vw;
+} 
+#toggle-fading {
+    margin-left: 43vw;
+}
 }
 #novidades, #destaques {
     display: flex;
@@ -212,7 +259,7 @@ header {
 
 .menu {
     color: white;
-    padding: 15px;
+   
 }
 header nav {
     
@@ -280,6 +327,7 @@ h5 a {
 }
 #menu-slide.slide-menu-show {
     left: 0px;
+    border: 5px white;
   }
   #menu-slide ul {
       padding-left: 45px;
@@ -312,16 +360,13 @@ h5 a {
 #descricao {
     background-color: #20B549;
     width: 100%;
+    font-size: 4vw;
 }
 #linha-catalogo {
     margin: 5px;
+    width: 30vw;
 }
-#linha-flex {
-    margin: 15px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+
 #footer-flex {
     margin: 5px;
     display: flex;
@@ -331,4 +376,20 @@ h5 a {
 }
 #redes-sociais {
     width: 5vw;
+}
+#linha-menu {
+    padding: 10px;
+}
+#conteudo-txt {
+    background-color: #20B549;
+    margin: 10px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+.loja-img {
+    width: 90vw;
+    margin: 15px;
+    margin-left: 5vw;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
 }
