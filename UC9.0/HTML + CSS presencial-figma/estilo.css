@@ -1,0 +1,446 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Responsividade mobile*/
+.titulo-loja {
+    display: none
+}
+.menu-mobile img {
+    width: 70px;
+    margin: 5px;
+}
+.menu-mobile {
+    float: left;
+}
+header nav {
+    display: none;
+}
+#logotipo {
+    margin: 5px;
+    width: 70px;
+}
+header {
+    background: #20B549;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+#banner {
+    background:url("imagens/58677.jpg");
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: 320px  142px ;
+    margin: 1px;
+    margin-bottom: 0px;
+    border-radius: 20px 20px 20px 20px;
+}
+#destaques {
+    background: #1DC224;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#texto-destaque {
+    width: 100%;
+}
+#foto-destaque {
+    margin: 10vw;
+    width: 230px;
+    border-radius: 20px 20px 20px 20px;
+}
+#novidades img {
+    width: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+#menu-slide {
+    z-index: 10;
+    position: absolute;
+    top: 75px;
+    left: -200px;
+    width: 175px;
+    height: 200px;
+    background-color: #149b3a;
+    border: 5px snow;
+    transition: 0.5s ease-in;
+    color: white;
+    text-decoration: none;
+  }
+
+#linha-flex {
+    margin: 25px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#toggle-fading {
+    margin-left: 15vw;
+}
+
+/*Responsividade de tablet*/
+@media screen and (min-width: 768px){
+    .titulo-loja {
+        display: block;
+        font-size: 35px;
+        margin: 5px;
+    }
+    #banner {
+        background:url("imagens/58677.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: 100%  350px ;
+        margin: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+      header {
+        background: #20B549;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 84px;
+        border-radius: 20px 20px 20px 20px;
+}
+#destaques {
+    background: #1DC224;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+#texto-destaque{
+    width: 40vw;
+    margin: 10px;
+    text-align:start;
+}
+#foto-destaque {
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 20px 20px 20px 20px;
+}
+#novidades img {
+    width: 400px;
+    border-radius: 20px 20px 20px 20px;
+}
+#linha-flex {
+    margin: 25px;
+    padding-left: 90px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#toggle-fading {
+    margin-left: 37vw;
+}
+}
+/*Responsividade Laptop*/
+@media screen and (min-width: 1024px){
+    .titulo-loja {
+        display: block;
+        font-size: 35px;
+        margin: 3px;
+    }
+    .menu-mobile {
+        display: none;
+    }
+    header nav{
+        display: block;
+        float: right;
+    }
+    #banner {
+        background:url("imagens/58677.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: 100%  550px ;
+        margin: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+      header {
+        background: #20B549;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 84px;
+        border-radius: 20px 20px 20px 20px;
+}
+#destaques {
+    background: #1DC224;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+#texto-destaque{
+    width: 40vw;
+    margin: 10px;
+    text-align:start;
+}
+#foto-destaque {
+    width: 400px;
+    height: 150px;
+    margin: 25px;
+    border-radius: 20px 20px 20px 20px;
+}
+#novidades img {
+    width: 400px;
+    border-radius: 20px 20px 20px 20px;
+}
+#linha-flex {
+    margin: 25px;
+    padding-left: 150px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}   
+#toggle-fading {
+    margin-left: 40vw;
+}
+}
+/*Responsividade Pc*/
+@media screen and (min-width: 1440px){
+    .titulo-loja {
+        display: block;
+        font-size: 35px;
+        margin: 5px;
+    }
+    #banner {
+        background:url("imagens/58677.jpg");
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: 100%  550px ;
+        margin: 10px;
+        border-radius: 20px 20px 20px 20px;
+    }
+    
+      header {
+        background: #20B549;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        width: 100%;
+        height: 84px;
+        border-radius: 20px 20px 20px 20px;
+}
+#destaques {
+    background: #1DC224;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px 20px 20px 20px;
+}
+#texto-destaque{
+    width: 40vw;
+    margin: 10px;
+    text-align:start;
+}
+#foto-destaque {
+    width: 450px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 20px 20px 20px 20px;
+}
+#novidades img {
+    width: 500px;
+    border-radius: 20px 20px 20px 20px;
+}
+#linha-flex {
+    margin: 25px;
+    padding-left: 240px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}  
+.nav-link {
+    font-size: 1.5vw;
+} 
+#toggle-fading {
+    margin-left: 43vw;
+}
+#txt-comand {
+    font-size: 20pt;
+}
+#logar {
+    font-size: 20pt;
+
+}
+}
+#novidades, #destaques {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 10px;
+    column-gap: 10px;
+  }
+#destaques img {
+    margin-right: auto;
+}
+#novidades img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.texto {
+    color: white;
+}
+
+
+.menu {
+    color: white;
+   
+}
+header nav {
+    
+    float: right;
+    font-weight: bolder;
+}
+/*
+#banner img{
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+*/
+
+
+.carousel-item {
+    margin: 10px;
+}
+body {
+    background-color: #313131;
+
+}
+.banner {
+    color: white;
+}
+
+header h1 {
+    color: white;
+    float: right;
+}
+header h1 a {
+    text-decoration: none;
+    color: white;
+}
+body h2{
+    color: white;
+}
+footer {
+    margin-top: 20vw;
+    background-color: #20B549;
+    border-radius: 5px;
+    row-gap: 3px;
+    padding: 15px;
+}
+
+h5 a {
+    text-decoration: none;
+    color: white;
+}
+#cel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.email {
+    margin-right: 15px;
+}
+.tel {
+   margin-left: 15px;
+}
+#menu-slide.slide-menu-show {
+    left: 0px;
+    border: 5px white;
+  }
+  #menu-slide ul {
+      padding-left: 45px;
+      list-style: none;
+  }
+  #menu-slide  a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    align-content: center;
+    background-color: white;
+    border: 1px black;
+    border-radius: 5px 5px 5px 5px;
+  }
+  #menu-slide li{
+      margin-top: 20px;
+      align-content: center;
+  }
+  #logintext {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  h1.titulo-catalogo {
+      color: white;
+  }
+.img-catalogo {
+    width: 30vw;
+    height: 30vw;
+  }
+#descricao {
+    background-color: #20B549;
+    width: 100%;
+    font-size: 4vw;
+}
+#linha-catalogo {
+    margin: 5px;
+    width: 30vw;
+}
+
+#footer-flex {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#redes-sociais {
+    width: 8vw;
+    margin: 2vw;
+}
+#linha-menu {
+    padding: 10px;
+}
+#conteudo-txt {
+    background-color: #20B549;
+    margin: 10vw;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    font-size: 16pt;
+}
+.loja-img {
+    width: 90vw;
+    margin: 15px;
+    margin-left: 5vw;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+.linha-nome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.linha-email {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.linha-cel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.cadastro {
+    margin-top: 20px;
+    margin: 5px;
+    background-color: #20B549;
+    border-radius: 5px;
+    row-gap: 3px;
+    padding: 15px;
+}
+#logar {
+    border-radius: 20px 20px 20px 20px;
+}

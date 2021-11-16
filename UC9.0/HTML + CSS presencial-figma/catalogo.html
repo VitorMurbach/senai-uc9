@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Mania</title>
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+
+  <!--Cabeçalho-->
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4" id="linha-menu">
+          <div class="menu-mobile" id="menu-mobile">
+            <img src="imagens/menu.hamburguer.png" alt="">
+          </div>
+          <nav class="menu">
+            <ul class="nav justify-content-end">
+              <li class="nav-item"> <a class="nav-link active" href="login.html">Login</a></li>
+              <li class="nav-item"> <a class="nav-link active" href="catalogo.html">Catálogo</a></li>
+              <li class="nav-item"> <a class="nav-link active" href="sobre-nos.html">Sobre nós</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-4">
+          <h1 align="center" class="titulo-loja"><a href="principal.html">Game Mania</a></h1>
+        </div>
+        <div class="col-4">
+          <img align="right" id="logotipo" src="imagens/noimage.png" alt="Logo da loja" onclick="principal1();">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <h1 align="center" class="titulo-catalogo">Catálogo de produtos</h1>
+
+  <div id="linha-flex" align="center">
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/farcry.jpg" alt="">
+      <p class="texto" id="descricao">Novos jogos</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/xbox.jpg" alt="">
+      <p class="texto" id="descricao">Xbox</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/ps.jpg" alt="">
+      <p class="texto" id="descricao">PlayStation</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/gow.jpg" alt="">
+      <p class="texto" id="descricao">Mais comprados</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/headphone.jpg" alt="">
+      <p class="texto" id="descricao">Headphones</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/mouse.jpg" alt="">
+      <p class="texto" id="descricao">Mouses</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/teclado.jpg" alt="">
+      <p class="texto" id="descricao">Teclados</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/guitar.jpg" alt="">
+      <p class="texto" id="descricao">Variações de Controles</p>
+    </div>
+
+    <div id="linha-catalogo">
+      <img class="img-catalogo" src="imagens/atari.jpg.opdownload" alt="">
+      <p class="texto" id="descricao">Old School</p>
+    </div>
+
+  </div>
+
+  <!--Rodapé-->
+  <footer align="center">
+    <h4 class="texto">Entre em contato conosco:</h4>
+    <div id="cel">
+      <div class="email">
+        <p class="texto">Email: fake@fake.com</p>
+      </div>
+      <div class="tel">
+        <p class="texto">Telefone: (14) 1234-5678 ou (14) 9999-9999</p>
+      </div>
+    </div>
+    <h5 class="texto">Nossas redes sociais:</h5>
+
+    <div id="footer-flex">
+      <div>
+        <img id="redes-sociais" src="imagens/facebook.png" alt="">
+      </div>
+
+      <div>
+        <img id="redes-sociais" src="imagens/youtube.png" alt="">
+      </div>
+
+      <div>
+        <img id="redes-sociais" src="imagens/linkedin.png" alt="">
+      </div>
+
+      <div>
+        <img id="redes-sociais" src="imagens/instagram.png" alt="">
+      </div>
+
+      <div>
+        <img id="redes-sociais" src="imagens/twitter.png" alt="">
+      </div>
+
+      <div>
+        <img id="redes-sociais" src="imagens/whatsapp.png" alt="">
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!--Menu hamburguer escondido-->
+  <div id="menu-slide">
+    <nav>
+      <ul>
+        <li id="logintext"><a href="login.html">Login</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
+        <li><a href="sobre-nos.html">Sobre nós</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="evento.js"></script>
+</body>
+
+</html>
+</body>
